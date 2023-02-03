@@ -10,7 +10,6 @@ logging.getLogger("pyrogram").setLevel(logging.WARNING)
 import base64
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
-from pyrogram.errors import ListenerCanceled
 from database.database import *
 from config import *
 
